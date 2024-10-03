@@ -95,17 +95,18 @@ Check all the gates following the same procedure.
 Program to verify the truth table in quartus for the basic logic gates using Verilog programming.
 Developed by: M.suren.
 RegisterNumber: 23005055
-module Logicgates(a,b,y1,y2,y3,y4,y5,y6,y7); 
-input a,b; 
-output y1,y2,y3,y4,y5,y6,y7; 
-and(y1,a,b); 
-or(y2,a,b); 
-not(y3,a); 
-xor(y4,a,b); 
+module Exp1(a,b,y1,y2,y3,y4,y5,y6,y7);
+input a,b;
+output y1,y2,y3,y4,y5,y6,y7;
+and(y1,a,b);
+or(y2,a,b);
+not(y3,a);
+xor(y4,a,b);
 nand(y5,a,b);
-nor(y6,a,b); 
-xnor(y7,a,b); 
-endmodule */
+nor(y6,a,b);
+xnor( y7,a,b);
+endmodule
+ */
 ```
 
 TRUTH TABLE:
@@ -115,12 +116,13 @@ TRUTH TABLE:
 
 RTL realization:
 
-![WhatsApp Image 2023-11-27 at 16 35 09_5115d668](https://github.com/Msuren48106/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/150503875/59f487a9-2a69-482e-b427-bc9185bc40b7)
+![Screenshot 2024-10-03 103649](https://github.com/user-attachments/assets/864b00f5-7259-4e4e-a7e9-2abf48db8928)
+
 
 
 WAVE FORM:
 
-![WhatsApp Image 2023-11-27 at 16 35 08_caa4c75b](https://github.com/Msuren48106/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/150503875/5133b664-05e0-437e-a79c-e5843e625507)
+![Screenshot 2024-10-03 104234](https://github.com/user-attachments/assets/4ba3bf81-b4d0-4e64-9543-9128e769c711)
 
 
 Result: 
